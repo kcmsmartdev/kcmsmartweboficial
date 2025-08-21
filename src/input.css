@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: "DelaGothicOne" ;
+    src: url("../assets/fonts/DelaGothicOne-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Coco-Heavy" ;
+    src: url("../assets/fonts/Coco-Sharp-Heavy.ttf");
+    
+}
+@font-face {
+    font-family: "QuicksandRegular" ;
+    src: url("../assets/fonts/Quicksand-Regular.ttf"); 
+}
+
+@font-face {
+    font-family: "QuicksandBold" ;
+    src: url("../assets/fonts/Quicksand-Bold.ttf"); 
+}
+@theme{
+    --color-Bg-Movil: #011907;
+    --font-DelaGothicOne: "DelaGothicOne";
+    --font-Coco-Heavy:"Coco-Heavy";
+    --font-QuicksandRegular:"QuicksandRegular";
+    --font-QuicksandBold:"QuicksandBold";
+}
