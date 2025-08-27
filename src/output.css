@@ -376,6 +376,9 @@
   .bg-Bg-Movil {
     background-color: var(--color-Bg-Movil);
   }
+  .bg-\[\#3E3E3E\] {
+    background-color: #3E3E3E;
+  }
   .bg-\[\#08CD50\] {
     background-color: #08CD50;
   }
@@ -387,6 +390,9 @@
   }
   .bg-\[\#011907\] {
     background-color: #011907;
+  }
+  .bg-\[\#333333\] {
+    background-color: #333333;
   }
   .bg-\[\#E5E5E5\] {
     background-color: #E5E5E5;
