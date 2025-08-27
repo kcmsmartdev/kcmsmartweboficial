@@ -7,22 +7,14 @@
       "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
-    --color-red-300: oklch(80.8% 0.114 19.571);
-    --color-red-400: oklch(70.4% 0.191 22.216);
     --color-amber-50: oklch(98.7% 0.022 95.277);
-    --color-amber-100: oklch(96.2% 0.059 95.617);
-    --color-black: #000;
     --color-white: #fff;
     --spacing: 0.25rem;
     --text-2xl: 1.5rem;
     --text-2xl--line-height: calc(2 / 1.5);
-    --font-weight-semibold: 600;
     --font-weight-bold: 700;
-    --tracking-tight: -0.025em;
     --tracking-normal: 0em;
-    --radius-xl: 0.75rem;
     --radius-2xl: 1rem;
-    --radius-3xl: 1.5rem;
     --radius-4xl: 2rem;
     --ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
     --animate-pulse: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
@@ -210,17 +202,11 @@
   .hidden {
     display: none;
   }
-  .table {
-    display: table;
-  }
   .h-\[35px\] {
     height: 35px;
   }
   .h-fit {
     height: fit-content;
-  }
-  .h-full {
-    height: 100%;
   }
   .h-screen {
     height: 100vh;
@@ -228,23 +214,8 @@
   .w-\[35px\] {
     width: 35px;
   }
-  .w-\[144\] {
-    width: 144;
-  }
   .w-\[410px\] {
     width: 410px;
-  }
-  .w-\[480px\] {
-    width: 480px;
-  }
-  .w-\[1440\] {
-    width: 1440;
-  }
-  .w-\[1440px\] {
-    width: 1440px;
-  }
-  .w-\[full\] {
-    width: full;
   }
   .w-fit {
     width: fit-content;
@@ -252,14 +223,8 @@
   .w-full {
     width: 100%;
   }
-  .border-collapse {
-    border-collapse: collapse;
-  }
   .animate-pulse {
     animation: var(--animate-pulse);
-  }
-  .resize {
-    resize: both;
   }
   .flex-col {
     flex-direction: column;
@@ -285,58 +250,14 @@
   .gap-3 {
     gap: calc(var(--spacing) * 3);
   }
-  .gap-4 {
-    gap: calc(var(--spacing) * 4);
-  }
   .gap-5 {
     gap: calc(var(--spacing) * 5);
-  }
-  .gap-33 {
-    gap: calc(var(--spacing) * 33);
-  }
-  .gap-34 {
-    gap: calc(var(--spacing) * 34);
-  }
-  .rounded {
-    border-radius: 0.25rem;
   }
   .rounded-2xl {
     border-radius: var(--radius-2xl);
   }
   .rounded-\[12px\] {
     border-radius: 12px;
-  }
-  .rounded-l-2xl {
-    border-top-left-radius: var(--radius-2xl);
-    border-bottom-left-radius: var(--radius-2xl);
-  }
-  .rounded-l-3xl {
-    border-top-left-radius: var(--radius-3xl);
-    border-bottom-left-radius: var(--radius-3xl);
-  }
-  .rounded-l-4xl {
-    border-top-left-radius: var(--radius-4xl);
-    border-bottom-left-radius: var(--radius-4xl);
-  }
-  .rounded-r {
-    border-top-right-radius: 0.25rem;
-    border-bottom-right-radius: 0.25rem;
-  }
-  .rounded-r-2xl {
-    border-top-right-radius: var(--radius-2xl);
-    border-bottom-right-radius: var(--radius-2xl);
-  }
-  .rounded-r-3xl {
-    border-top-right-radius: var(--radius-3xl);
-    border-bottom-right-radius: var(--radius-3xl);
-  }
-  .rounded-r-4xl {
-    border-top-right-radius: var(--radius-4xl);
-    border-bottom-right-radius: var(--radius-4xl);
-  }
-  .border {
-    border-style: var(--tw-border-style);
-    border-width: 1px;
   }
   .bg-Bg-Movil {
     background-color: var(--color-Bg-Movil);
@@ -350,29 +271,8 @@
   .bg-\[\#011907\] {
     background-color: #011907;
   }
-  .bg-\[4\] {
-    background-color: 4;
-  }
   .bg-amber-50 {
     background-color: var(--color-amber-50);
-  }
-  .bg-amber-100 {
-    background-color: var(--color-amber-100);
-  }
-  .bg-black {
-    background-color: var(--color-black);
-  }
-  .bg-red-300 {
-    background-color: var(--color-red-300);
-  }
-  .bg-red-400 {
-    background-color: var(--color-red-400);
-  }
-  .bg-white {
-    background-color: var(--color-white);
-  }
-  .bg-\[480px\] {
-    background-position: 480px;
   }
   .p-3 {
     padding: calc(var(--spacing) * 3);
@@ -382,9 +282,6 @@
   }
   .p-7 {
     padding: calc(var(--spacing) * 7);
-  }
-  .px-3 {
-    padding-inline: calc(var(--spacing) * 3);
   }
   .px-4 {
     padding-inline: calc(var(--spacing) * 4);
@@ -423,26 +320,11 @@
   .text-\[1\.5rem\] {
     font-size: 1.5rem;
   }
-  .text-\[1\.25rem\] {
-    font-size: 1.25rem;
-  }
-  .text-\[1\.75rem\] {
-    font-size: 1.75rem;
-  }
   .text-\[1\.125rem\] {
     font-size: 1.125rem;
   }
-  .text-\[1\.175rem\] {
-    font-size: 1.175rem;
-  }
-  .text-\[1\.235rem\] {
-    font-size: 1.235rem;
-  }
   .text-\[1\.875rem\] {
     font-size: 1.875rem;
-  }
-  .text-\[2rem\] {
-    font-size: 2rem;
   }
   .text-\[20px\] {
     font-size: 20px;
@@ -458,17 +340,9 @@
     --tw-font-weight: var(--font-weight-bold);
     font-weight: var(--font-weight-bold);
   }
-  .font-semibold {
-    --tw-font-weight: var(--font-weight-semibold);
-    font-weight: var(--font-weight-semibold);
-  }
   .tracking-normal {
     --tw-tracking: var(--tracking-normal);
     letter-spacing: var(--tracking-normal);
-  }
-  .tracking-tight {
-    --tw-tracking: var(--tracking-tight);
-    letter-spacing: var(--tracking-tight);
   }
   .text-\[\#08CD50\] {
     color: #08CD50;
@@ -476,31 +350,15 @@
   .text-\[\#011907\] {
     color: #011907;
   }
-  .text-\[1\.5\] {
-    color: 1.5;
-  }
-  .text-\[1\.rem\] {
-    color: 1.rem;
-  }
-  .text-\[2\] {
-    color: 2;
-  }
   .text-amber-50 {
     color: var(--color-amber-50);
   }
   .text-white {
     color: var(--color-white);
   }
-  .underline {
-    text-decoration-line: underline;
-  }
   .shadow-md {
     --tw-shadow: 0 4px 6px -1px var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 2px 4px -2px var(--tw-shadow-color, rgb(0 0 0 / 0.1));
     box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
-  }
-  .outline {
-    outline-style: var(--tw-outline-style);
-    outline-width: 1px;
   }
   .transition-all {
     transition-property: all;
@@ -656,24 +514,23 @@
 }
 @font-face {
   font-family: "DelaGothicOne";
-  src: url("../assets/fonts/DelaGothicOne-Regular.ttf");
+  src: url("../assets/fonts/DelaGothicOne-Regular.ttf") format("woff2");
+  font-display: swap;
 }
 @font-face {
   font-family: "Coco-Heavy";
-  src: url("../assets/fonts/Coco-Sharp-Heavy.ttf");
+  src: url("../assets/fonts/Coco-Sharp-Heavy.ttf") format("woff2");
+  font-display: swap;
 }
 @font-face {
   font-family: "QuicksandRegular";
-  src: url("../assets/fonts/Quicksand-Regular.ttf");
+  src: url("../assets/fonts/Quicksand-Regular.ttf") format("woff2");
+  font-display: swap;
 }
 @font-face {
   font-family: "QuicksandBold";
-  src: url("../assets/fonts/Quicksand-Bold.ttf");
-}
-@property --tw-border-style {
-  syntax: "*";
-  inherits: false;
-  initial-value: solid;
+  src: url("../assets/fonts/Quicksand-Bold.ttf") format("woff2");
+  font-display: swap;
 }
 @property --tw-leading {
   syntax: "*";
@@ -752,11 +609,6 @@
   inherits: false;
   initial-value: 0 0 #0000;
 }
-@property --tw-outline-style {
-  syntax: "*";
-  inherits: false;
-  initial-value: solid;
-}
 @property --tw-duration {
   syntax: "*";
   inherits: false;
@@ -780,6 +632,11 @@
   inherits: false;
   initial-value: 1;
 }
+@property --tw-border-style {
+  syntax: "*";
+  inherits: false;
+  initial-value: solid;
+}
 @keyframes pulse {
   50% {
     opacity: 0.5;
@@ -788,7 +645,6 @@
 @layer properties {
   @supports ((-webkit-hyphens: none) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color:rgb(from red r g b)))) {
     *, ::before, ::after, ::backdrop {
-      --tw-border-style: solid;
       --tw-leading: initial;
       --tw-font-weight: initial;
       --tw-tracking: initial;
@@ -806,12 +662,12 @@
       --tw-ring-offset-width: 0px;
       --tw-ring-offset-color: #fff;
       --tw-ring-offset-shadow: 0 0 #0000;
-      --tw-outline-style: solid;
       --tw-duration: initial;
       --tw-ease: initial;
       --tw-scale-x: 1;
       --tw-scale-y: 1;
       --tw-scale-z: 1;
+      --tw-border-style: solid;
     }
   }
 }

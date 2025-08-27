@@ -2,22 +2,26 @@
 
 @font-face {
     font-family: "DelaGothicOne" ;
-    src: url("../assets/fonts/DelaGothicOne-Regular.ttf");
+    src: url("../assets/fonts/DelaGothicOne-Regular.ttf") format("woff2");
+    font-display: swap;
 }
 
 @font-face {
     font-family: "Coco-Heavy" ;
-    src: url("../assets/fonts/Coco-Sharp-Heavy.ttf");
+    src: url("../assets/fonts/Coco-Sharp-Heavy.ttf") format("woff2");
+    font-display: swap;
     
 }
 @font-face {
     font-family: "QuicksandRegular" ;
-    src: url("../assets/fonts/Quicksand-Regular.ttf"); 
+    src: url("../assets/fonts/Quicksand-Regular.ttf") format("woff2"); 
+    font-display: swap;
 }
 
 @font-face {
     font-family: "QuicksandBold" ;
-    src: url("../assets/fonts/Quicksand-Bold.ttf"); 
+    src: url("../assets/fonts/Quicksand-Bold.ttf") format("woff2"); 
+    font-display: swap;
 }
 @theme{
     --color-Bg-Movil: #011907;
