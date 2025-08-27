@@ -1,26 +1,32 @@
 @import "tailwindcss";
 
 @font-face {
-    font-family: "DelaGothicOne" ;
+    font-family: "DelaGothicOne";
     src: url("../assets/fonts/DelaGothicOne-Regular.ttf") format("woff2");
     font-display: swap;
 }
 
 @font-face {
-    font-family: "Coco-Heavy" ;
+    font-family: "Coco-Heavy";
     src: url("../assets/fonts/Coco-Sharp-Heavy.ttf") format("woff2");
     font-display: swap;
     
 }
 @font-face {
-    font-family: "QuicksandRegular" ;
+    font-family: "QuicksandRegular";
     src: url("../assets/fonts/Quicksand-Regular.ttf") format("woff2"); 
     font-display: swap;
 }
 
 @font-face {
-    font-family: "QuicksandBold" ;
+    font-family: "QuicksandBold";
     src: url("../assets/fonts/Quicksand-Bold.ttf") format("woff2"); 
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "WaterFall";
+    src: url("../assets/fonts/Waterfall-Regular.ttf") format("woff2"); 
     font-display: swap;
 }
 @theme{
@@ -29,4 +35,5 @@
     --font-Coco-Heavy:"Coco-Heavy";
     --font-QuicksandRegular:"QuicksandRegular";
     --font-QuicksandBold:"QuicksandBold";
+    --font-WaterFall:"WaterFall";
 }
