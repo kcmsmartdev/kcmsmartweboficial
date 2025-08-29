@@ -7,8 +7,8 @@
     <link href="./src/output.css" rel="stylesheet">
 </head>
 <body class="w-full ">
-    <header class="w-full bg-amber-50 flex flex-col items-center fixed z-50">
-        <nav class="w-full px-5 lg:px-24 h-fit flex flex-row items-center justify-between p-5">
+    <header class="w-full bg-white flex flex-col items-center fixed z-50">
+        <nav class="w-full px-5  h-fit flex flex-row items-center justify-between p-5">
             <div class="hidden lg:flex flex-row items-center ">
                 <a href="./index.html"><img src="./assets/images/logo-movil.png" width="27px" height="27px" alt="logo-kcmsmart" loading="lazy"></a>
                 <span class="font-Coco-Heavy text-[35px]">CMSMART</span>
@@ -87,24 +87,24 @@
 
         </section>
 
-        <section class="w-full h-fit flex flex-col items-center mt-32">
+        <section class="w-full h-full flex flex-col lg:flex-row items-center mt-32">
             
-            <div class="w-full h-fit  flex flex-col justify-between lg:flex-row">
+            
 
-            <div class="w-full  h-fit bg-[#011907] flex flex-col items-center justify-center p-3 gap-3">
-                <img src="./assets/images/Rectangle1.png" alt="icono-de-creatividad" width="80px" height="74" loading="lazy">
+            <div class="w-full  h-fit bg-[#011907] flex flex-col items-center justify-center p-3 lg:py-10 gap-3">
+                <img src="./assets/images/imagen-creatividad.png" alt="icono-de-creatividad" width="30px" height="30px" loading="lazy">
                 <span class="font-Coco-Heavy text-[1.25rem] text-amber-50">Creatividad</span>
 
             </div>
 
 
-            <div class="w-full h-fit bg-[#08CD50] flex flex-col items-center justify-center p-3 gap-3">
-                <img src="./assets/images/Rectangle2.png" alt="icono-de-creatividad" width="80px" height="74" loading="lazy">
+            <div class="w-full h-fit bg-[#08CD50] flex flex-col items-center justify-center p-3 lg:py-10 gap-3">
+                <img src="./assets/images/imagen-frescura.png" alt="icono-de-frescura" width="30px" height="30px"  loading="lazy">
                 <span class="font-Coco-Heavy text-[1.25rem] text-[#011907]">Frescura</span>
             </div>
 
-            <div class="w-full  h-fit bg-[#36F96B] flex flex-col items-center justify-center p-3 gap-3">
-                <img src="./assets/images/Rectangle3.png" alt="icono-de-creatividad" width="80px" height="74" loading="lazy">
+            <div class="w-full  h-fit bg-[#36F96B] flex flex-col items-center justify-center p-3 lg:py-10 gap-3">
+                <img src="./assets/images/imagen-modernidad.png" alt="icono-de-modernidad" width="30px" height="30px" loading="lazy">
                 <span class="font-Coco-Heavy text-[1.25rem] text-[#011907]">Modernidad</span>
             </div>
            
@@ -133,9 +133,10 @@
             </div>
         </section>
 
-       <section class="w-full h-full lg:w-[1440px] bg-[#011907] mt-20 mb-20 lg:mt-40 flex flex-col lg:flex-row p-7 gap-7 items-center rounded-4xl lg:rounded-[128px]">
+       <section class="w-full h-full lg:w-[1440px] bg-[#1f1f1f] mt-20 mb-20 lg:mt-40 flex flex-col lg:flex-row px-5 py-10 lg:py-16
+                       gap-7 items-center lg:rounded-[128px] shadow-[#3c433e] shadow-md">
             
-            <div class="w-full h-full flex flex-col gap-5">
+            <div class="w-full h-full flex flex-col gap-5 ">
                 <span class="text-[1rem] font-QuicksandRegular text-white">Nuestros Servicios</span>
                 <h2 class="font-Coco-Heavy text-[2rem] tracking-tight leading-9 text-white">
                     Servicios diseñados para que tus sueños den los primeros pasos
@@ -146,7 +147,7 @@
                     tecnología para que tus ideas se conviertan en proyectos exitosos.
                 </p>
                 <a href="./pages/sobre-nosotros.html" class="p-5 border-2 mt-10 border-[#08CD50] text-[#08CD50] rounded-[12px] text-[1.125rem] 
-                font-QuicksandBold hover:border-[#011907] hover:border-2 hover:bg-[#011907] hover:text-[#08CD50]">
+                font-QuicksandBold hover:border-[#fff] hover:border-2 hover:bg-[#011907] hover:text-[#08CD50]">
                      Saber más ...
                     
                 </a>
@@ -169,7 +170,7 @@
             
         </section>
 
-        <section class="w-full h-full bg-[#08CD50]/7 flex flex-col items-center">
+        <section class="w-full h-full bg-[#08CD50]/10 flex flex-col items-center">
             <div class="w-full h-full lg:w-[1440px] flex flex-col gap-5 px-5 items-center mt-20 mb-20">
                     <span class="font-Coco-Heavy text-[#08CD50] text-[1.75rem] lg:text-[2.5rem] leading-7 text-center">
                         ¿AÚN NO TIENES MICROSOFT BUSINESS 
@@ -194,17 +195,48 @@
              </div>   
         </section>
         
-        <section class="w-full h-full lg:w-[1440px] lg:h-[462px] mt-20 mb-20 lg:mt-40 flex flex-col p-7 gap-7 items-center justify-center rounded-4xl lg:border-b-[10px] lg:border-l-[10px] lg:border-[#011907] lg:rounded-[128px]" style="background-image: linear-gradient(to bottom, #36f96b, #2cd457, #21b044, #158e32, #086d21);">
-            <span class="font-Coco-Heavy text-[2rem]">Testimonio de algunos de nuestro clientes</span>
-            <span class="h-fit flex text-start flex-row items-center  justify-center gap-2.5">
-                <img src="./assets/images/logo-oscuro.png" alt="Testimonio-1" width="100px" height="100px" loading="lazy">
-                <div class="flex flex-col gap-1">
-                    <span class="text-white font-QuicksandBold">Carlos Quispe</span>
-                    <p class="w-[300px] h-full leading-7 text-[#E4E4E4] font-QuicksandRegular">Estoy muy contento con el trabajo realizado, recomiendo que trabajen con esta agrencia.</p>
+        <section class="w-full h-full lg:w-[1440px] relative lg:h-[462px] mt-20 mb-20 lg:mt-40 flex flex-col p-5 lg:p-7 gap-7 items-center justify-center rounded-4xl lg:border-8 lg:border-[#011907] lg:rounded-[128px]" 
+            style="background-image: linear-gradient(to bottom, #36f96b, #2cd457, #21b044, #158e32, #086d21);">
+
+            <!-- Título -->
+            <span class="font-Coco-Heavy text-center text-[1.75rem] lg:text-[2rem] leading-7 text-white">
+                Opiniones de algunos de nuestros clientes satisfechos
+            </span>
+
+            <!-- Contenedor del slider -->
+            <div id="slider" class="relative w-full max-w-2xl overflow-hidden rounded-3xl">
+                <div class="flex transition-transform duration-700 ease-in-out" id="slides">
+
+                    <!-- Testimonio 1 -->
+                    <div class="w-full flex-shrink-0 p-8 text-center">
+                        <p class="text-lg text-[#F1F5F9] italic font-QuicksandBold">“Un servicio excelente, todo el proceso fue rápido y sencillo.”</p>
+                        <h3 class="mt-4 font-bold text-[#011907] text-xl">Juan Pérez</h3>
+                        <span class="text-[#F1F5F9] text-sm">Cliente satisfecho</span>
+                    </div>
+
+                    <!-- Testimonio 2 -->
+                    <div class="w-full flex-shrink-0 p-8 text-center font-QuicksandBold">
+                        <p class="text-lg text-[#F1F5F9] italic">“Me ayudaron a resolver mi proyecto en tiempo récord. Muy recomendados.”</p>
+                        <h3 class="mt-4 font-bold text-[#011907] text-xl">Ana Torres</h3>
+                        <span class="text-[#F1F5F9] text-sm">Project Manager</span>
+                    </div>
+
+                    <!-- Testimonio 3 -->
+                    <div class="w-full flex-shrink-0 p-8 text-center font-QuicksandBold">
+                        <p class="text-lg text-[#F1F5F9]italic">“Gran calidad y atención al detalle. Sin duda volveré a trabajar con ustedes.”</p>
+                        <h3 class="mt-4 font-bold text-[#011907] text-xl">Carlos García</h3>
+                        <span class="text-[#F1F5F9] text-sm">Freelancer</span>
+                    </div>
 
                 </div>
-            </span>
-            
+            </div>
+
+            <!-- Dots de navegación -->
+            <div class="flex justify-center mt-6 space-x-3">
+                <button class="w-3 h-3 rounded-full  bg-gray-400 hover:scale-125 transition transform" onclick="goToSlide(0)" id="dot0"></button>
+                <button class="w-3 h-3 rounded-full  bg-gray-400 hover:scale-125 transition transform" onclick="goToSlide(1)" id="dot1"></button>
+                <button class="w-3 h-3 rounded-full  bg-gray-400 hover:scale-125 transition transform" onclick="goToSlide(2)" id="dot2"></button>
+            </div>
         </section>
         
     </main>
@@ -214,9 +246,9 @@
             <div class="flex flex-col gap-2 mt-2 lg:mt-10">
                 <a href="./index.html"><img src="./assets/images/logo_blanco.png" alt="logo-kcmsmart" width="60px" height="60px" loading="lazy"></a>
                 
-                <span class="text-[#C1C1C1] text-[1rem] mt-2.5">Nuestras Redes</span>
+                <span class="text-[#C1C1C1] text-[1rem] mt-2.5 font-QuicksandBold">Nuestras Redes</span>
 
-                <article class="flex flex-col gap-1.5 text-white font-QuicksandRegular mt-1.5 text-[1rem]" >
+                <article class="flex flex-col gap-1 text-white font-QuicksandRegular mt-1.5 text-[1rem]" >
                     <a href="https://www.facebook.com" target="_blank"> Facebook</a>
                     <a href="https://www.instagram.com" target="_blank"> Instagram</a>
                     <a href="https://www.tiktok.com" target="_blank"> Tiktok</a>
@@ -225,9 +257,9 @@
 
             <div class="flex flex-col gap-2 mt-2 lg:mt-10">
 
-                <span class="text-[#C1C1C1] text-[1rem] mt-2.5">Contactos</span>
+                <span class="text-[#C1C1C1] text-[1rem] font-QuicksandBold mt-2.5">Contactos</span>
 
-                <article class="flex flex-col gap-1.5 text-white font-QuicksandRegular mt-1.5 text-[1rem]" >
+                <article class="flex flex-col gap-1 text-white font-QuicksandRegular mt-1.5 text-[1rem]" >
                     <a href="mailto:ventas@kcmsmart.com" target="_blank"> ventas@kcmsmart.com</a>
                     <a href="https://wa.link/l1g4m0" target="_blank"> +51 932 689 884</a>
                 </article>
@@ -235,9 +267,9 @@
 
             <div class="flex flex-col gap-2 mt-2 lg:mt-10">
        
-                <span class="text-[#C1C1C1] text-[1rem] mt-2.5">Servicios</span>
+                <span class="text-[#C1C1C1] text-[1rem] mt-2.5 font-QuicksandBold">Servicios</span>
 
-                <article class="flex flex-col gap-1.5 text-white font-QuicksandRegular mt-1.5 text-[1rem]" >
+                <article class="flex flex-col gap-1 text-white font-QuicksandRegular mt-1.5 text-[1rem]" >
                     <a href="./pages/servicios.html"> Desarrollo web</a>
                     <a href="./pages/licencias365.html">licencias365</a>
                 </article>
@@ -245,7 +277,7 @@
 
             <div class="flex flex-col gap-2 mt-3 lg:mt-10">
                 
-                <span class="text-[#C1C1C1] text-[1rem] mt-2.5">Agencia</span>
+                <span class="text-[#C1C1C1] text-[1rem] mt-2.5 font-font-QuicksandBold">Agencia</span>
 
                 <article class="flex flex-col gap-1.5 text-white font-QuicksandRegular mt-1.5 text-[1rem]" >
                     <a href="./pages/sobre-nosotros.html">Sobre nosotros</a>
@@ -256,7 +288,7 @@
 
             <div class="flex flex-col gap-2 mt-3 lg:mt-10">
     
-                <span class="text-[#C1C1C1] text-[1rem] mt-2.5">Políticas</span>
+                <span class="text-[#C1C1C1] text-[1rem] mt-2.5 font-font-QuicksandBold">Políticas</span>
 
                 <article class="flex flex-col gap-1.5 text-white font-QuicksandRegular mt-1.5 text-[1rem]" >
                     <a href="./pages/condiciones.html">Condiciones</a>
@@ -266,11 +298,11 @@
             </div>
 
         </section>
-        <section class="w-full h-full lg:w-[1440px] p-5 flex flex-col items-center">
-            <span class="text-[#D9D9D9]/30 font-Coco-Heavy text-[65px] md:text-[120px] lg:text-[225px] ">KCMSMART</span>
+        <section class="w-fit h-full lg:w-[1440px] p-5 flex flex-col items-center">
+            <span class="text-[#D9D9D9]/30 font-Coco-Heavy text-[60px] md:text-[120px] lg:text-[225px] ">KCMSMART</span>
         </section>
 
-        <div class="w-full h-full lg:w-[1440px] p-5 flex flex-col items-center text-white/30 text-[1rem] font-QuicksandBold">
+        <div class="w-full h-full lg:w-[1440px] p-5 flex flex-col items-center text-white/50 text-[1rem] font-QuicksandBold">
                 <span>© 2025 KCMSMART.COM | Todos los derechos reservados.</span>
         </div>
 
@@ -291,6 +323,40 @@
             btnMenu.classList.remove("hidden");
             btnClose.classList.toggle("hidden");
         })
+
+
+    const slides = document.getElementById("slides");
+    const totalSlides = slides.children.length;
+    let index = 0;
+
+    function showSlide() {
+        slides.style.transform = `translateX(-${index * 100}%)`;
+        updateDots();
+    }
+
+    function goToSlide(i) {
+        index = i;
+        showSlide();
+    }
+
+    function updateDots() {
+        for (let i = 0; i < totalSlides; i++) {
+            document.getElementById("dot" + i).classList.remove("bg-[#08CD50]", "w-5");
+            document.getElementById("dot" + i).classList.add("bg-white/40", "w-3");
+        }
+        document.getElementById("dot" + index).classList.remove("bg-white/40", "w-3");
+        document.getElementById("dot" + index).classList.add("bg-[#08CD50]", "w-5");
+    }
+
+    // Inicializar
+    showSlide();
+
+    // Autoplay cada 5s
+    setInterval(() => {
+        index = (index + 1) % totalSlides;
+        showSlide();
+    }, 5000);
+
     </script>
 </body>
 </html>
