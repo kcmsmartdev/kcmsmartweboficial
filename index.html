@@ -8,7 +8,7 @@
 </head>
 <body class="w-full ">
     <header class="w-full bg-white flex flex-col items-center fixed z-50">
-        <nav class="w-full px-5  h-fit flex flex-row items-center justify-between p-5">
+        <nav class="w-full mx-auto   h-fit flex flex-row items-center justify-between p-5 border-b-[1px]">
             <div class="hidden lg:flex flex-row items-center ">
                 <a href="./index.html"><img src="./assets/images/logo-movil.webp" width="27px" height="27px" alt="logo-kcmsmart" loading="lazy"></a>
                 <span class="font-Coco-Heavy text-[35px]">CMSMART</span>
@@ -35,36 +35,34 @@
               hover:bg-[#08CD50] hover:text-white hover:shadow-lg hover:scale-105">Blog</a></li>
 
             
-               <li><a href="./index.html" class="relative px-5 py-2 rounded-2xl transition-all duration-300 ease-in-out 
-              bg-[#011907] text-[#08CD50] hover:text-[#5b5b5b] hover:shadow-lg hover:scale-105">Contacto</a></li>
+               <li><a href="./index.html" class="relative px-7 py-3 rounded-[10px] border-[1px] border-[#011907] transition-all duration-300 ease-in-out 
+              bg-[#36F96B] text-[#011907] hover:rounded-3xl hover:shadow-lg hover:scale-105">Contacto</a></li>
             
 
             </ul>
             <a class="block lg:hidden" id="btnMenu"><img src="./assets/icon/burger-solid-full.svg" alt="icono-hamburguesa" width="45px" height="45px" loading="lazy"></a>
             <a class="hidden" id="btnClose"><img src="./assets/icon/arrow-right-from-bracket-solid-full.svg" alt="icono-salir-menu" width="45px" height="45px" loading="lazy"></a>
         </nav>
-        <div id="mMenu" class="hidden w-full h-screen bg-Bg-Movil text-white text-2xl gap-5">
-            <ul>
+        <div id="mMenu" class="hidden w-full h-screen bg-Bg-Movi">
+            <ul class="w-full h-full flex flex-col gap-5 items-center mt-10 text-[2rem] font-QuicksandBold text-[#011907]">
                 <li><a href="./index.html">Inicio</a></li>
                 <li><a href="./pages/servicios.html">Servicios</a></li>
                 <li><a href="./pages/licencias365.html">Licencias 365</a></li>
                 <li><a href="./pages/sobre-nosotros.html">Sobre Nosotros</a></li>
                 <li><a href="./pages/blog.html">Blog</a></li>
                 <li><a href="./pages/contacto.html">Contacto</a></li>
-
+                
             </ul>
         </div>
     </header>
     
     <main class="w-full  flex flex-col items-center">
 
-        <section id="hero" class="h-full max-w-screen-xl flex flex-col-reverse lg:flex-row p-5 items-center">
-            <div class="w-full flex flex-col gap-5 items-start mt-28">
-                <h1 class="w-full text-start  font-DelaGothicOne text-[1.875rem] tracking-normal leading-7 mt-5
+        <section id="hero" class="w-full max-w-screen-xl mx-auto px-5 h-full  flex flex-col-reverse lg:flex-row p-5 items-center">
+            <div class="w-full flex flex-col gap-5 items-start mt-32">
+                <h1 class="w-full text-start text-[#011907] font-DelaGothicOne text-[1.875rem] tracking-normal leading-7 mt-5
                  lg:mt-0 lg:text-[3.125rem] lg:tracking-[-1px] lg:leading-12">DESARROLLAMOS SITIOS WEB PROFESIONALES Y
-                    VENTA  DE  LICENCIAS
-                    MICROSOFT  BUSINESS 
-                    365
+                    MODERNOS
                 </h1>
 
                 <p class="font-QuicksandRegular text-[1.125rem] mt-2.5">Contamos con un equipo joven y creativo que transforma tus ideas en 
@@ -72,49 +70,51 @@
                     otros servicios profesionales de Microsoft 365.
                 </p>
 
-                <a href="./pages/servicios.html" 
-                    class="w-fit px-6 py-3 bg-[#08CD50] rounded-[12px] text-[20px] mt-2.5 font-QuicksandRegular font-bold 
-                    text-[#011907] shadow-md transition-all duration-300 ease-in-out 
-                    hover:bg-[#06b347] hover:shadow-lg hover:scale-105 active:scale-95">
+                <a id="btn1" href="./pages/servicios.html" 
+                    class="w-full lg:w-fit h-full p-3 text-center font-QuicksandBold bg-[#36F96B] lg:px-7 lg:py-3 text-[1rem] text-[#011907] border-[#011907] border-[1px] 
+                        rounded-[10px] hover:rounded-3xl active:rounded-3xl focus:rounded-3xl cursor-pointer transition-all duration-300">
                     Nuestros Servicios
                 </a>
+
+                <div class="w-full h-full flex lg:flex-row items-center">
+            
+            
+
+                    <div class="w-fit  h-fit flex flex-row items-center justify-center p-3 lg:py-10 gap-3">
+                        
+                        <span class="font-Coco-Heavy text-[0.875rem] text-[#363636]">Creatividad</span>
+                        <img src="./assets/images/imagen-creatividad.webp" alt="icono-de-creatividad" width="22px" height="22px" loading="lazy">
+
+                    </div>
+
+
+                    <div class="w-fit h-fit  flex flex-row items-center justify-center p-3 lg:py-10 gap-3">
+                        <span class="font-Coco-Heavy text-[0.875rem] text-[#363636]">Frescura</span>
+                        <img src="./assets/images/imagen-frescura.webp" alt="icono-de-frescura" width="22px" height="22px"  loading="lazy">
+                    </div>
+
+                    <div class="w-fit  h-fit flex flex-row items-center justify-center p-3 lg:py-10 gap-3">
+                        <span class="font-Coco-Heavy text-[0.875rem] text-[#363636]">Modernidad</span>
+                        <img src="./assets/images/imagen-modernidad.webp" alt="icono-de-modernidad" width="22px" height="22px" loading="lazy">
+                    </div>
+                    
+                 </div>
             </div>
 
 
-            <div class="w-full flex mt-28 items-center justify-center animate-pulse">
+            <div class="w-full flex mt-28 items-center lg:items-end justify-center animate-pulse">
                <img src="./assets/images/img-hero-kcmsmart.webp" alt="images-hero-kcmsmart" class="rounded-2xl w-[410px] lg:w-[500px]" loading="lazy">
             </div>
 
         </section>
 
-        <section class="w-full h-full flex flex-col lg:flex-row items-center mt-32">
-            
-            
+        
 
-            <div class="w-full  h-fit bg-[#011907] flex flex-col items-center justify-center p-3 lg:py-10 gap-3">
-                <img src="./assets/images/imagen-creatividad.webp" alt="icono-de-creatividad" width="30px" height="30px" loading="lazy">
-                <span class="font-Coco-Heavy text-[1.25rem] text-amber-50">Creatividad</span>
-
-            </div>
-
-
-            <div class="w-full h-fit bg-[#08CD50] flex flex-col items-center justify-center p-3 lg:py-10 gap-3">
-                <img src="./assets/images/imagen-frescura.webp" alt="icono-de-frescura" width="30px" height="30px"  loading="lazy">
-                <span class="font-Coco-Heavy text-[1.25rem] text-[#011907]">Frescura</span>
-            </div>
-
-            <div class="w-full  h-fit bg-[#36F96B] flex flex-col items-center justify-center p-3 lg:py-10 gap-3">
-                <img src="./assets/images/imagen-modernidad.webp" alt="icono-de-modernidad" width="30px" height="30px" loading="lazy">
-                <span class="font-Coco-Heavy text-[1.25rem] text-[#011907]">Modernidad</span>
-            </div>
-           
-        </section>
-
-        <section class="h-full max-w-screen-xl mt-20 lg:mt-32 flex flex-col lg:flex-row p-5 items-center">
+        <section class="w-full max-w-screen-xl mx-auto px-5  mt-20 lg:mt-32 flex flex-col lg:flex-row items-center">
             <div class="w-full h-full flex flex-col items-center lg:items-start">
-                <img src="./assets/images/imagen-sobre-nosotros.webp" alt="imagen-sobre-nosotros" width="467px" height="552px" loading="lazy">
+                <img src="./assets/images/Animación_Bombilla_Pensante_GIF.gif" class="rounded-3xl" alt="imagen-sobre-nosotros" aria-label="Animación_Bombilla_Pensante_GIF" width="467px" height="552px" loading="lazy">
             </div>
-            <div class="w-full h-full flex flex-col gap-5">
+            <div class="w-full h-full flex flex-col gap-5 mt-10 lg:mt-0">
                 <span class="text-[1rem] font-QuicksandRegular">Sobre Nostros</span>
                 <h2 class="font-Coco-Heavy text-[2rem] tracking-tight leading-9">
                     En KCM SMART, creemos en el poder de la innovación digital para transformar ideas en realidades
@@ -125,143 +125,133 @@
                    aportar ideas modernas y frescas, siempre con el compromiso de brindar resultados 
                    de calidad que generen valor real para tu negocio. 
                 </p>
-                <a href="./pages/sobre-nosotros.html" class="p-5 mt-10 border-4 border-[#011907] text-[#011907] rounded-[12px] text-[1.125rem] 
-                font-QuicksandBold hover:border-[#08CD50] hover:border-4 hover:bg-[#08CD50]">
-                     Saber más ...
-                    
+                <a id="btn2" href="./pages/sobre-nosotros.html" class="w-full lg:w-fit h-full p-3 text-center font-QuicksandBold text-[1rem]
+                 bg-[#36F96B] lg:px-16 lg:py-3 text-[#011907] border-[#011907] border-[1px] 
+                    rounded-[10px] hover:rounded-3xl active:rounded-3xl focus:rounded-3xl cursor-pointer transition-all duration-300">
+                    Leer más        
                 </a>
+
             </div>
         </section>
 
-       <section class="h-full max-w-screen-xl bg-[#1f1f1f] mt-20 mb-20 lg:mt-40 flex flex-col lg:flex-row px-5 py-10 lg:py-16
-                       gap-7 items-center lg:rounded-[128px]">
-            
-            <div class="w-full h-full flex flex-col gap-5 ">
-                <span class="text-[1rem] font-QuicksandRegular text-white">Nuestros Servicios</span>
-                <h2 class="font-Coco-Heavy text-[2rem] tracking-tight leading-9 text-white">
-                    Servicios diseñados para que tus sueños den los primeros pasos
-                </h2>
-                <p class="text-[1.125rem] font-QuicksandRegular leading-6 text-white">
-                   En KCM Smart ponemos a tu alcance soluciones digitales modernas y efectivas,
-                    creadas para ayudarte a destacar desde el inicio. Nuestro equipo combina creatividad y 
-                    tecnología para que tus ideas se conviertan en proyectos exitosos.
-                </p>
-                <a href="./pages/sobre-nosotros.html" class="p-5 border-4 mt-10 border-[#fff] text-[#fff] rounded-[12px] text-[1.125rem] 
-                font-QuicksandBold hover:border-[#08CD50] hover:border-4 hover:bg-[#08CD50] hover:text-[#011907]">
-                     Saber más ...
+       <section class="w-full h-full  mt-20 mb-20 lg:mt-40 bg-linear-to-b from-[#011907] to-[#057F24] rounded-b-4xl">
+            <div class="max-w-screen-xl  mx-auto px-5 fle flex-col items-center gap-7">
+                <div class="w-full h-full flex flex-col lg:flex-row  py-10 gap-7 items-center">
+
+                    <div class="w-full h-full flex flex-col gap-7">
+                    <span class="text-[1rem] font-QuicksandRegular text-[#fff]">Nuestros Servicios</span>
+                    <h2 class="font-Coco-Heavy text-[2rem] tracking-tight leading-9 text-[#fff]">
+                        Servicios diseñados para que tus sueños den los primeros pasos
+                    </h2>
+                    <p class="text-[1.125rem] font-QuicksandRegular mt-2.5 leading-6 text-[#fff]">
+                    En KCM Smart ponemos a tu alcance soluciones digitales modernas y efectivas,
+                        creadas para ayudarte a destacar desde el inicio. Nuestro equipo combina creatividad y 
+                        tecnología para que tus ideas se conviertan en proyectos exitosos.
+                    </p>
+                    <div class="w-full h-full flex flex-row gap-5 mt-10 ">
+                        <article class="w-3xs h-fit border-[1px] border-[#AFFF07] p-3 rounded-4xl text-white flex flex-col items-center justify-center gap-5">
+                            <img src="./assets/images/imagen-desarrollo-web.webp" alt="imagen-desarrollo-web" aria-label="imagen-desarrollo-web" width="120px" height="80px">
+                            <span class="font-QuicksandBold">Desarrollo web</span>
+
+                            <a id="btn3" href="./pages/sobre-nosotros.html" class="w-full lg:w-fit h-full  font-QuicksandBold  text-center text-[#011907] 
+                            text-[1rem] bg-[#AFFF07] lg:px-16 lg:py-3 rounded-[10px] hover:rounded-3xl active:rounded-3xl focus:rounded-3xl cursor-pointer
+                            transition-all duration-300 ">
+                                Ver mas
+                             </a>
+                        </article>
+
+                        <article class="w-3xs h-fit border-[1px] border-[#AFFF07] p-3 rounded-4xl text-white flex flex-col items-center justify-center gap-5 ">
+                            <img src="./assets/images/diseño_de_logo.webp" alt="imagen-desarrollo-web" aria-label="imagen-desarrollo-web" width="120px" height="80px">
+                            <span class="font-QuicksandBold">Diseño de Logo</span>
+                        <a id="btn4" href="./pages/sobre-nosotros.html" class="w-full lg:w-fit h-full font-QuicksandBold  text-center text-[#011907] 
+                            text-[1rem]  bg-[#AFFF07] lg:px-16 lg:py-3 rounded-[10px] hover:rounded-3xl active:rounded-3xl focus:rounded-3xl cursor-pointer
+                            transition-all duration-300 ">
+                                Ver mas
+                        </a>
+                        </article>
+
+                    </div>
                     
-                </a>
             </div>
 
-            <div class="w-full h-full flex flex-col items-center lg:items-end">
+            <div class="w-full h-full flex flex-col mt-10 lg:mt-0 items-center lg:items-end">
                 <img src="./assets/images/imagen-servicios.webp" alt="imagen-sobre-nosotros" width="467px" height="552px" loading="lazy">
             </div>
-        </section>
-
-        <section class="w-full h-full  flex flex-col items-center bg-[#011907]">
-            <div class="w-full h-full lg:w-[1440px] lg:h-auto p-5 flex flex-col  lg:flex-row gap-5 items-center justify-center">
-                <span class="font-WaterFall text-white text-[1.875rem]">Ellos confiaron en nosotros</span>
-
-                <div class="w-fit flex flex-row gap-7">
-                    <img src="./assets/images/logo_aurum_metals.webp" alt="logo-aurum-metals" width="80px" height="50px" loading="lazy">
-                    <img src="./assets/images/logo_aurum_logistics.webp" alt="logo-aurum-metals" width="250px" height="20px" loading="lazy">
                 </div>
-            </div>
-            
-        </section>
 
-        <section class="w-full h-full bg-[#08CD50]/10 flex flex-col items-center">
-            <div class="w-full h-full lg:w-[1440px] flex flex-col gap-5 px-5 items-center mt-20 mb-20">
-                    <span class="font-Coco-Heavy text-[#08CD50] text-[1.75rem] lg:text-[2.5rem] leading-7 text-center">
+                 <div class="w-full h-full bg-[#fff] flex flex-col gap-5 px-5 py-10 items-center mt-20 mb-20 rounded-[64px]">
+                    <span class="font-Coco-Heavy text-[#081226] text-[1.75rem] lg:text-[2.5rem] leading-7 text-center">
                         ¿AÚN NO TIENES MICROSOFT BUSINESS 
-                        <span class="font-DelaGothicOne text-[#011907]">
+                        <span class="font-DelaGothicOne text-[#081226]">
                             365
                         </span>?
                     </span>
                     
-                    <p class="w-full lg:w-1/2 font-QuicksandRegular  text-center text-[1.25rem] leading-6">
+                    <p class="w-full lg:w-1/2 mt-1.5 font-QuicksandRegular  text-center text-[1.25rem] leading-6">
                         Puedes seleccionar el paquete que mejor se adapte a tus necesidades. 
                         Con él tendrás acceso a todos los servicios de Microsoft 365, incluyendo Word, 
                         Excel, PowerPoint y Outlook con tu correo corporativo personalizado (tucorreo@tuempresa.com),
-                        además de 1 TB de almacenamiento en la nube por usuario.
+                        además de 1TB de almacenamiento en la nube por usuario.
                     </p>
 
-                    <a href="./pages/licencias365.html" class="px-10 py-3 mt-5 bg-Bg-Movil text-white rounded-2xl font-QuicksandBold
-                        shadow-md transition-all duration-300 ease-in-out hover:bg-[#06b347] hover:text-[#011907] hover:shadow-lg hover:scale-105
-                        active:scale-95"> 
-                            Ver planes
-                    </a>
 
-             </div>   
+                    <a id="btn5" href="./pages/licencias365.html" class="w-full lg:w-fit h-full p-3 mt-10 font-QuicksandBold text-[1rem]
+                 bg-[#081226] lg:px-16 lg:py-3 text-[#fff] border-[#011907] border-[1px] 
+                    rounded-[10px] text-center hover:rounded-3xl active:rounded-3xl focus:rounded-3xl cursor-pointer transition-all duration-300">
+                    Ver planes    
+                </a>
+
+             </div>  
+            </div>
+
         </section>
+
+       
+
+
+            
+
         
-        <section class="w-full h-full bg-white shadow-lg lg:max-w-screen-xl relative  mt-20 mb-20 lg:mt-40 flex flex-col p-5 lg:p-7 gap-7 items-center 
-        justify-center rounded-[16px]  lg:rounded-[128px] border-4 border-[#011907] " 
-            >
+        <section class="w-full h-full mt-28 mb-40">
+            <div class="max-w-screen-xl  mx-auto  h-full p-5 flex flex-col  lg:flex-row gap-5 items-center">
+                <div class="w-full  h-full flex flex-col lg:flex-row gap-5 items-center justify-between">
+                    <span class="w-full font-WaterFall text-[#011907] text-[2.125rem]">Ellos confiaron en nosotros</span>
 
-            <!-- Título -->
-            <span class="font-DelaGothicOne text-center text-base sm:text-lg lg:text-xl  leading-7 text-[#011907]">
-                Opiniones de algunos de nuestros clientes satisfechos
-            </span>
-
-            <!-- Contenedor del slider -->
-            <div id="slider" class="relative w-full max-w-2xl overflow-hidden rounded-3xl">
-                <div class="flex transition-transform duration-700 ease-in-out" id="slides">
-
-                    <!-- Testimonio 1 -->
-                    <div class="w-full flex-shrink-0 p-8 text-center">
-                        <p class="text-lg text-[#011907] italic font-QuicksandBold">“Un servicio excelente, todo el proceso fue rápido y sencillo.”</p>
-                        <h3 class="mt-4 font-bold text-[#011907] text-xl">Juan Pérez</h3>
-                        <span class="text-[#011907] text-sm">Cliente satisfecho</span>
+                    <div class="w-full h-full flex flex-row items-end justify-evenly">
+                        <img src="./assets/images/logo_aurum_metals.webp" alt="logo-aurum-metals" width="80px" height="50px" loading="lazy">
+                        <img src="./assets/images/logo_aurum_logistics.webp" alt="logo-aurum-metals" width="250px" height="20px" loading="lazy">
                     </div>
-
-                    <!-- Testimonio 2 -->
-                    <div class="w-full flex-shrink-0 p-8 text-center font-QuicksandBold">
-                        <p class="text-lg text-[#011907] italic">“Me ayudaron a resolver mi proyecto en tiempo récord. Muy recomendados.”</p>
-                        <h3 class="mt-4 font-bold text-[#011907] text-xl">Ana Torres</h3>
-                        <span class="text-[#011907] text-sm">Project Manager</span>
-                    </div>
-
-                    <!-- Testimonio 3 -->
-                    <div class="w-full flex-shrink-0 p-8 text-center font-QuicksandBold">
-                        <p class="text-lg text-[#F1F5F9]italic">“Gran calidad y atención al detalle. Sin duda volveré a trabajar con ustedes.”</p>
-                        <h3 class="mt-4 font-bold text-[#011907] text-xl">Carlos García</h3>
-                        <span class="text-[#011907] text-sm">Freelancer</span>
-                    </div>
-
                 </div>
             </div>
-
-            <!-- Dots de navegación -->
-            <div class="flex justify-center mt-6 space-x-3 ">
-                <button class="w-4 h-4 rounded-full  bg-[#08CD50] hover:scale-125 transition transform" onclick="goToSlide(0)" id="dot0"></button>
-                <button class="w-4 h-4 rounded-full  bg-[#08CD50] hover:scale-125 transition transform" onclick="goToSlide(1)" id="dot1"></button>
-                <button class="w-4 h-4 rounded-full  bg-[#08CD50] hover:scale-125 transition transform" onclick="goToSlide(2)" id="dot2"></button>
-            </div>
+            
         </section>
+
+       
         
     </main>
 
-    <footer class="w-full h-full bg-[#011907] flex flex-col items-center">
-        <section class="w-full max-w-screen-xl h-full p-5 flex flex-col justify-between lg:flex-row gap-5">
-            <div class="flex flex-col gap-2 mt-2 lg:mt-10">
+    <footer class="w-full h-full bg-[#011907] flex flex-col items-center"> 
+        <div class="max-w-screen-2xl h-full flex flex-col items-center mt-10">
+            <section class="w-full h-full mx-auto px-5 flex flex-col justify-between lg:flex-row gap-5">
+            <div class="w-full flex flex-col gap-2 mt-2 lg:mt-10">
                 <a href="./index.html"><img src="./assets/images/logo_blanco.webp" alt="logo-kcmsmart" width="60px" height="60px" loading="lazy"></a>
                 
-                <span class="text-[#C1C1C1] text-[1rem] mt-2.5 font-QuicksandBold">Nuestras Redes</span>
+                <span class="text-[#919191] text-[1rem] mt-2.5 font-QuicksandBold">Nuestras Redes</span>
 
                 <article class="flex flex-row gap-2.5 text-white font-QuicksandRegular mt-1.5 text-[1rem]" >
-                    <a href="https://www.facebook.com" target="_blank"> <img src="./assets/images/facebook.png" alt="facebook" width="24px" height="24px"></a>
-                    <a href="https://www.instagram.com" target="_blank"> <img src="./assets/images/instagram.png" alt="instagram" width="24px" height="24px"></a>
-                    <a href="https://www.youtube.com" target="_blank"> <img src="./assets/images/youtube.png" alt="tiktok" width="24px" height="24px"></a>
-                    <a href="https://www.tiktok.com" target="_blank"> <img src="./assets/images/tik-tok.png" alt="tiktok" width="24px" height="24px"></a>
+                    <a href="https://www.facebook.com" target="_blank"> <img src="./assets/images/facebook.png" aria-label="facebook" alt="facebook" width="24px" height="24px"></a>
+                    <a href="https://www.instagram.com" target="_blank"> <img src="./assets/images/instagram.png" aria-label="instagram" alt="instagram" width="24px" height="24px"></a>
+                    <a href="https://www.youtube.com" target="_blank"> <img src="./assets/images/youtube.png" aria-label="youtube" alt="youtube" width="24px" height="24px"></a>
+                    <a href="https://www.tiktok.com" target="_blank"> <img src="./assets/images/tik-tok.png" aria-label="tiktok" alt="tiktok" width="24px" height="24px"></a>
                 </article>
             </div>
 
-            <div class="flex flex-col gap-2 mt-2 lg:mt-10">
+           <div class="w-full flex flex-col gap-5 lg:flex-row justify-between ">
+             <div class="flex flex-col gap-2 mt-2 lg:mt-10">
 
-                <span class="text-[#C1C1C1] text-[1rem] font-QuicksandBold mt-2.5">Contactos</span>
+                <span class="text-[#919191] text-[1rem] font-QuicksandBold mt-2.5">Contactos</span>
 
-                <article class="flex flex-col gap-1 text-white font-QuicksandRegular mt-1.5 text-[1rem]" >
+                <article class="flex flex-col gap-1 text-white font-QuicksandRegular mt-1.5 text-[1.125rem]" >
                     <a href="mailto:ventas@kcmsmart.com" target="_blank"> ventas@kcmsmart.com</a>
                     <a href="https://wa.link/l1g4m0" target="_blank"> +51 932 689 884</a>
                 </article>
@@ -269,9 +259,9 @@
 
             <div class="flex flex-col gap-2 mt-2 lg:mt-10">
        
-                <span class="text-[#C1C1C1] text-[1rem] mt-2.5 font-QuicksandBold">Servicios</span>
+                <span class="text-[#919191] text-[1rem] mt-2.5 font-QuicksandBold">Servicios</span>
 
-                <article class="flex flex-col gap-1 text-white font-QuicksandRegular mt-1.5 text-[1rem]" >
+                <article class="flex flex-col gap-1 text-white font-QuicksandRegular mt-1.5 text-[1.125rem]" >
                     <a href="./pages/servicios.html"> Desarrollo web</a>
                     <a href="./pages/licencias365.html">licencias365</a>
                 </article>
@@ -279,9 +269,9 @@
 
             <div class="flex flex-col gap-2 mt-3 lg:mt-10">
                 
-                <span class="text-[#C1C1C1] text-[1rem] mt-2.5 font-font-QuicksandBold">Agencia</span>
+                <span class="text-[#919191] text-[1rem] mt-2.5 font-QuicksandBold">Agencia</span>
 
-                <article class="flex flex-col gap-1.5 text-white font-QuicksandRegular mt-1.5 text-[1rem]" >
+                <article class="flex flex-col gap-1.5 text-white font-QuicksandRegular mt-1.5 text-[1.125rem]" >
                     <a href="./pages/sobre-nosotros.html">Sobre nosotros</a>
                     <a href="./pages/blog.html">Blog</a>
                     <a href="./pages/contacto.html">Contacto</a>
@@ -290,75 +280,26 @@
 
             <div class="flex flex-col gap-2 mt-3 lg:mt-10">
     
-                <span class="text-[#C1C1C1] text-[1rem] mt-2.5 font-font-QuicksandBold">Políticas</span>
+                <span class="text-[#919191] text-[1rem] mt-2.5 font-QuicksandBold">Políticas</span>
 
-                <article class="flex flex-col gap-1.5 text-white font-QuicksandRegular mt-1.5 text-[1rem]" >
+                <article class="flex flex-col gap-1.5 text-white font-QuicksandRegular mt-1.5 text-[1.125rem]" >
                     <a href="./pages/condiciones.html">Condiciones</a>
                     <a href="./pages/privacidad.html">Privacidad</a>
                     <a href="./pages/cookies.html">Cookies</a>
                 </article>
             </div>
 
+           </div>
         </section>
-        <section class="w-fit h-full max-w-screen-xl p-5 flex flex-col items-center">
-            <span class="text-[#D9D9D9]/30 font-Coco-Heavy text-[60px] md:text-[120px] lg:text-[225px] ">KCMSMART</span>
+        <section class="w-full h-full p-5 mt-20 flex flex-col items-center">
+            <img src="./assets/images/marca-agua-kcmsmart.svg"  loading="lazy" alt="kcmsmart" aria-label="kcmsmart">
         </section>
 
-        <div class="w-full h-full lg:w-[1440px] p-5 flex flex-col items-center text-white/50 text-[1rem] font-QuicksandBold">
+        <div class="w-full h-full lg:w-[1440px] p-5 flex flex-col text-center items-center text-white/50 text-[1rem] font-QuicksandBold">
                 <span>© 2025 KCMSMART.COM | Todos los derechos reservados.</span>
         </div>
-
+        </div>
     </footer>
-    <script>
-        const btnMenu = document.getElementById("btnMenu");
-        const mMenu = document.getElementById("mMenu");
-        const btnClose = document.getElementById("btnClose");
-
-        btnMenu.addEventListener("click", function(){
-            mMenu.classList.remove("hidden");
-            btnMenu.classList.toggle("hidden");
-            btnClose.classList.remove("hidden");
-        });
-
-        btnClose.addEventListener("click", function(){
-            mMenu.classList.toggle("hidden");
-            btnMenu.classList.remove("hidden");
-            btnClose.classList.toggle("hidden");
-        })
-
-
-    const slides = document.getElementById("slides");
-    const totalSlides = slides.children.length;
-    let index = 0;
-
-    function showSlide() {
-        slides.style.transform = `translateX(-${index * 100}%)`;
-        updateDots();
-    }
-
-    function goToSlide(i) {
-        index = i;
-        showSlide();
-    }
-
-    function updateDots() {
-        for (let i = 0; i < totalSlides; i++) {
-            document.getElementById("dot" + i).classList.remove("bg-[#08CD50]", "w-5");
-            document.getElementById("dot" + i).classList.add("bg-[#011907]", "w-4");
-        }
-        document.getElementById("dot" + index).classList.remove("bg-[#011907]", "w-4");
-        document.getElementById("dot" + index).classList.add("bg-[#08CD50]", "w-5");
-    }
-
-    // Inicializar
-    showSlide();
-
-    // Autoplay cada 5s
-    setInterval(() => {
-        index = (index + 1) % totalSlides;
-        showSlide();
-    }, 5000);
-
-    </script>
+    <script src="./assets/script/miScript.js"></script>
 </body>
 </html>
