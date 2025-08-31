@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-45P8JHHQXC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-45P8JHHQXC');
+</script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KCMSMART.COM | Desarrollamos tu sitio web, tienda online, landing pages</title>
@@ -183,29 +192,29 @@
             </div>
                 </div>
 
-                 <div class="w-full h-full bg-[#fff] flex flex-col gap-5 px-5 py-10 items-center mt-20 mb-20 rounded-[64px]">
-                    <span class="font-Coco-Heavy text-[#081226] text-[1.75rem] lg:text-[2.5rem] leading-7 text-center">
-                        ¿AÚN NO TIENES MICROSOFT BUSINESS 
-                        <span class="font-DelaGothicOne text-[#081226]">
-                            365
-                        </span>?
-                    </span>
-                    
-                    <p class="w-full lg:w-1/2 mt-1.5 font-QuicksandRegular  text-center text-[1.25rem] leading-6">
-                        Puedes seleccionar el paquete que mejor se adapte a tus necesidades. 
-                        Con él tendrás acceso a todos los servicios de Microsoft 365, incluyendo Word, 
-                        Excel, PowerPoint y Outlook con tu correo corporativo personalizado (tucorreo@tuempresa.com),
-                        además de 1TB de almacenamiento en la nube por usuario.
-                    </p>
+                    <div class="w-full h-full bg-[#fff] flex flex-col gap-5 px-5 py-10 items-center mt-20 mb-20 rounded-[64px]">
+                            <span class="font-Coco-Heavy text-[#081226] text-[1.75rem] lg:text-[2.5rem] leading-7 text-center">
+                                ¿AÚN NO TIENES MICROSOFT BUSINESS 
+                                <span class="font-DelaGothicOne text-[#081226]">
+                                    365
+                                </span>?
+                            </span>
+                            
+                            <p class="w-full lg:w-1/2 mt-1.5 font-QuicksandRegular  text-center text-[1.25rem] leading-6">
+                                Puedes seleccionar el paquete que mejor se adapte a tus necesidades. 
+                                Con él tendrás acceso a todos los servicios de Microsoft 365, incluyendo Word, 
+                                Excel, PowerPoint y Outlook con tu correo corporativo personalizado (tucorreo@tuempresa.com),
+                                además de 1TB de almacenamiento en la nube por usuario.
+                            </p>
 
 
-                    <a id="btn5" href="./pages/licencias365.html" class="w-full lg:w-fit h-full p-3 mt-10 font-QuicksandBold text-[1rem]
-                 bg-[#081226] lg:px-16 lg:py-3 text-[#fff] border-[#011907] border-[1px] 
-                    rounded-[10px] text-center hover:rounded-3xl active:rounded-3xl focus:rounded-3xl cursor-pointer transition-all duration-300">
-                    Ver planes    
-                </a>
+                            <a id="btn5" href="./pages/licencias365.html" class="w-full lg:w-fit h-full p-3 mt-10 font-QuicksandBold text-[1rem]
+                                bg-[#081226] lg:px-16 lg:py-3 text-[#fff] border-[#011907] border-[1px] 
+                                    rounded-[10px] text-center hover:rounded-3xl active:rounded-3xl focus:rounded-3xl cursor-pointer transition-all duration-300">
+                                    Ver planes    
+                            </a>
 
-             </div>  
+                    </div>  
             </div>
 
         </section>
@@ -230,7 +239,28 @@
             
         </section>
 
-       
+       <!-- Banner de cookies -->
+        <div id="cookie-banner" 
+        class="w-full fixed bottom-0 inset-x-0 hidden z-50 text-white bg-gray-900/95 border-t border-gray-800 p-4 flex-col sm:flex-row items-center gap-3">
+            <div class="w-full flex flex-col lg:flex-row justify-between items-center">
+                    <p class="w-full text-[1rem]">
+                    Usamos cookies para mejorar tu experiencia. Al continuar, aceptas nuestra 
+                    <a href="./pages/politica-cookies.html" class="underline hover:text-green-400">Política de Cookies</a>.
+                </p>
+                <div class="w-full flex flex-col text-[1rem] lg:flex-row justify-end gap-10">
+                    <button id="accept-cookies" 
+                            class="bg-green-500 hover:bg-green-600 text-white px-7 py-2 rounded-lg">
+                                Aceptar
+                    </button>
+                    <button id="decline-cookies" 
+                            class="bg-gray-600 hover:bg-gray-700 text-white px-7 py-2 rounded-lg">
+                            Rechazar
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
         
     </main>
 
@@ -287,9 +317,9 @@
                 <span class="text-[#919191] text-[1rem] mt-2.5 font-QuicksandBold">Políticas</span>
 
                 <article class="flex flex-col gap-1.5 text-white font-QuicksandRegular mt-1.5 text-[1.125rem]" >
-                    <a href="./pages/condiciones.html">Condiciones</a>
-                    <a href="./pages/privacidad.html">Privacidad</a>
-                    <a href="./pages/cookies.html">Cookies</a>
+                    <a href="../pages/politica-condiciones.html">Condiciones</a>
+                    <a href="../pages/polotica-privacidad">Privacidad</a>
+                    <a href="../pages/politica-cookies.html">Cookies</a>
                 </article>
             </div>
 
@@ -305,5 +335,6 @@
         </div>
     </footer>
     <script src="./assets/script/miScript.js"></script>
+    <script src="./assets/script/cookies.js"></script>
 </body>
 </html>
