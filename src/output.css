@@ -699,27 +699,27 @@
 }
 @font-face {
   font-family: "DelaGothicOne";
-  src: url("../assets/fonts/DelaGothicOne-Regular.ttf") format("woff2");
+  src: url("../assets/fonts/DelaGothicOne-Regular.woff2") format("woff2");
   font-display: swap;
 }
 @font-face {
   font-family: "Coco-Heavy";
-  src: url("../assets/fonts/Coco-Sharp-Heavy.ttf") format("woff2");
+  src: url("../assets/fonts/CocoSharpTrial-Heavy.woff2") format("woff2");
   font-display: swap;
 }
 @font-face {
   font-family: "QuicksandRegular";
-  src: url("../assets/fonts/Quicksand-Regular.ttf") format("woff2");
+  src: url("../assets/fonts/Quicksand-Regular.woff2") format("woff2");
   font-display: swap;
 }
 @font-face {
   font-family: "QuicksandBold";
-  src: url("../assets/fonts/Quicksand-Bold.ttf") format("woff2");
+  src: url("../assets/fonts/Quicksand-Bold.woff2") format("woff2");
   font-display: swap;
 }
 @font-face {
   font-family: "WaterFall";
-  src: url("../assets/fonts/Waterfall-Regular.ttf") format("woff2");
+  src: url("../assets/fonts/Waterfall-Regular.woff2") format("woff2");
   font-display: swap;
 }
 @property --tw-border-style {
