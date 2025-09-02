@@ -12,12 +12,14 @@
             mMenu.classList.remove("hidden");
             btnMenu.classList.toggle("hidden");
             btnClose.classList.remove("hidden");
+            document.body.style.overflow = 'hidden';
         });
 
         btnClose.addEventListener("click", function(){
             mMenu.classList.toggle("hidden");
             btnMenu.classList.remove("hidden");
             btnClose.classList.toggle("hidden");
+            document.body.style.overflow = 'auto';  
         })
 
 
