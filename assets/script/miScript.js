@@ -6,7 +6,7 @@
         const btn3 = document.getElementById("btn3");
         const btn4 = document.getElementById("btn4");
         const btn5 = document.getElementById("btn5");
-
+        document.getElementById("year").textContent = new Date().getFullYear();
 
         btnMenu.addEventListener("click", function(){
             mMenu.classList.remove("hidden");
